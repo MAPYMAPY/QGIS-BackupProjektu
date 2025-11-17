@@ -1,7 +1,7 @@
 # QGIS Backup Plugin / Wtyczka Backup Projektu
 
 [EN] QGIS plugin creates timestamped backups of QGIS project file with Memory Layer Saver plugin support<br>
-[PL] wtyczka do QGIS tworzy kopie zapasowe projektów QGIS ze znacznikiem czasowym i wsparciem wtyczki Memory Layer Saver
+[PL] wtyczka do QGIS tworzy kopie zapasowe pliku projektu QGIS ze znacznikiem czasowym i wsparciem wtyczki Memory Layer Saver
 
 [![QGIS](https://img.shields.io/badge/QGIS-3.4+-green.svg)](https://qgis.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -15,7 +15,7 @@
 
 ### 📋 Description
 
-A QGIS plugin that creates timestamped backups of your projects with optional Memory Layer Saver integration. Never lose your work again!
+A QGIS plugin that creates timestamped backups of your project file with optional Memory Layer Saver integration. Never lose your work again!
 
 ### ✨ Features
 
