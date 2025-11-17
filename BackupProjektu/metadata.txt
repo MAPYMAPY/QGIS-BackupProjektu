@@ -1,0 +1,29 @@
+[general]
+name=BackupProjektu
+qgisMinimumVersion=3.4
+qgisMaximumVersion=3.99
+version=1.0
+author=Artur Otremba
+email=kontakt@szkolenia.pro
+
+description=Creates timestamped backups of QGIS projects with Memory Layer Saver plugin support | Tworzy kopie zapasowe projektów QGIS ze wsparciem wtyczki Memory Layer Saver
+
+about=<b>[EN] Project Backup Plugin</b><br><br>    Automatically creates timestamped backups in '_backups' subfolder.<br>    Format: PROJECT_NAME (backup YYYY-MM-DD HH.MM.SS).qgz<br><br>    <b>Features:</b><br>    - Auto-save project before backup<br>    - Memory Layer Saver plugin integration (optional)<br>    - .mldata file backup support (optional)<br>    - Bilingual interface (PL/EN)<br><br>    <b>Note:</b> Memory Layer Saver plugin required for temporary layers backup.<br><br>    ----------------------------------------<br><br>    <b>[PL] Wtyczka Backup Projektu</b><br><br>    Automatycznie tworzy kopie zapasowe ze znacznikiem czasowym w podkatalogu '_backups'.<br>    Format: NAZWA_PROJEKTU (backup RRRR-MM-DD GG.MM.SS).qgz<br><br>    <b>Funkcje:</b><br>    - Autozapis projektu przed backupem<br>    - Integracja z wtyczką Memory Layer Saver (opcjonalna)<br>    - Kopia pliku .mldata (opcjonalna)<br>    - Interfejs dwujęzyczny (PL/EN)<br><br>    <b>Uwaga:</b> Wtyczka Memory Layer Saver wymagana dla backupu warstw tymczasowych.
+
+category=Plugins
+tags=backup,archive,project,save,memory layer,snapshot,copy
+icon=icons/backup_floppy.png
+
+homepage=https://github.com/MAPYMAPY/QGIS-BackupProjektu
+tracker=https://github.com/MAPYMAPY/QGIS-BackupProjektu/issues
+repository=https://github.com/MAPYMAPY/QGIS-BackupProjektu
+
+experimental=False
+deprecated=False
+license=GPL-3.0-or-later
+changelog=1.0 (2025-11-16)
+    - Initial release
+    - Timestamped project backups
+    - Memory Layer Saver integration
+    - Bilingual interface (Polish/English)
+    - Configurable backup options
